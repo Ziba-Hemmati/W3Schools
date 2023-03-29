@@ -7,10 +7,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <i class="fa-solid fa-bed"></i>
+                Logo
+            </div>
+            <ul class="list">
+                <li>Rooms</li>
+                <li>About</li>
+                <li>Contact</li>
+                <div class="book">
+                    <li>Book Now</li>
+                </div>
+            </ul>
+        </nav>
+        <main>
+            <div class="hotel"><img src="./Images/hotel.jpg" alt="Hotel"></div>
 
+            <form action="#" class="form">
+                <div class="form-head">
+                    <i class="fa-solid fa-bed"></i>
+                    Hotel Name
+                </div>
+                <div class="form-body">
+                    <div>
+                        <div>
+                            <i class="fa-regular fa-calendar"></i>
+                            <label for="check-in">Check In</label>
+                        </div>
+                        <input type="text" name="check-in" id="check-in" placeholder=" DD MM YYYY">
+                    </div>
+                    <div>
+                        <div>
+                            <i class="fa-regular fa-calendar"></i>
+                            <label for="check-out">Check Out</label>
+                        </div>
+                        <input type="text" name="check-out" id="check-out" placeholder=" DD MM YYYY">
+                    </div>
+                    <div>
+                        <div>
+                            <i class="fa-solid fa-person"></i>
+                            <label for="adults">Adults</label>
+                        </div>
+                        <input type="number" name="adults" id="adults" placeholder="1">
+                    </div>
+                    <div>
+                        <div>
+                            <i class="fa-solid fa-child-reaching"></i>
+                            <label for="kids">Kids</label>
+                        </div>
+                        <input type="number" name="kids" id="kids" placeholder="0">
+                    </div>
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Search availability
+                </div>
+            </form>
+
+        </main>
+    </div>
 </body>
 
 </html>
